@@ -401,7 +401,7 @@ final class PhabricatorFaviconRef extends Phobject {
       }
     }
 
-    $scores = msortv($scores, 'getSelf');
+    // $scores = msortv($scores, 'getSelf');
     $best_score = head_key($scores);
 
     $viewer = $this->getViewer();
